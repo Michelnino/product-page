@@ -112,13 +112,13 @@ dl dd {
   padding-left: .5em;
 }
 
-.browsed-grid {
+.browsedgrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 1rem;
 }
 
-.browsed-grid h2 {
+.browsedgrid h2 {
   grid-column: 1 / -1;
 }
 
@@ -140,13 +140,22 @@ footer {
     align-items: flex-start;
   }
 
-  .browsed-grid {
+  .intro{
+    display:flex;
+    flex: wrap;
+  }
+
+  .browsedgrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 1rem;
   }
 
-}
+  @media only screen and (min-width: 80em) {
+
+
+
+  }
 
 
 
